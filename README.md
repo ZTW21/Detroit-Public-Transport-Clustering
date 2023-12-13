@@ -84,8 +84,10 @@ Our visualization and analysis of the clusters allowed us to answer key question
 ## Storytelling and Conclusion
 By applying the elbow method and k-Means clustering to key performance indicators such as delays and travel times, we've segmented trains into distinct operational profiles. These clusters with significant variability, each tell a story of operational efficiency and areas for improvement. Our initial goal was to identify patterns that could enhance scheduling and reliability. The insights gained have laid the groundwork for targeted improvements. This project has underscored the power of data-driven decision-making in public transport management. Future steps would include refining the model with real-time data feeds and exploring predictive analytics to pre-emptively manage delays.
 
-
 ## Impact
+The implementation of k-Means clustering to optimize public transportation offers significant social benefits, primarily by enhancing the reliability and efficiency of train schedules, thus potentially improving the daily commute for thousands of individuals. By reducing delays and identifying bottleneck stations, the project can contribute to a decrease in traveler stress and an increase in overall satisfaction with public transport services. On an environmental level, improved punctuality may encourage a shift from car travel to public transit, aiding in the reduction of urban traffic congestion and carbon emissions.
+
+Ethically, however, the project must navigate the fine line between operational efficiency and the quality of work-life balance for transportation staff. Changes to schedules and increased efficiency demands could inadvertently lead to worker strain. Moreover, there's the risk of data privacy concerns when integrating real-time data feeds, especially if personal data of commuters are involved without explicit consent. Lastly, while enhancing one aspect of the transportation system, we must ensure equitable improvements across all routes to avoid disproportionately favoring more profitable or busier lines, thereby maintaining fairness in service provision. It's crucial that the project's execution remains mindful of these potential impacts, striving for a balance that maximizes benefit while minimizing harm.
 
 ## Dataset
 https://www.kaggle.com/datasets/gatandubuc/public-transport-traffic-data-in-france
