@@ -33,6 +33,7 @@ The histogram above illustrates the distribution of average travel times for the
 
 
 ![Boxplot of Number of Cancelled Trains](visualizations/BoxplotOfNumberOfCancelledTrains.png)
+
 The boxplot provides a visual summary of the distribution of cancelled trains. It indicates the median, spread, and outliers in the data, helping to identify stations with unusually high numbers of cancellations. This can guide resource allocation for improving reliability or addressing specific issues leading to cancellations.
 
 ![Boxplot of Number of Late Trains at Departure](visualizations/BoxplotOfNumberOfLateTrainsAtDeparture.png)
