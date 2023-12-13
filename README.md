@@ -69,6 +69,18 @@ Visualizations played a crucial role, turning complex multidimensional data into
 Throughout these stages, we iterated on our approach, reflecting on what worked and what didn't. We continually sought to improve our model, gaining new insights into public transportation dynamics with each step. The iterative process not only fine-tuned our model but also deepened our understanding of the data and its implications for public transportation management.
 
 ## Evaluation
+The evaluation of our KMeans clustering model's performance was primarily qualitative, as clustering models do not have a definitive accuracy measure like supervised learning models. The Elbow method served as our initial evaluation tool, helping us to discern the point of diminishing returns in adding more clusters. With the Elbow plot indicating four as the optimal number of clusters, we proceeded to visualize the data.
+
+![Clusters of Trains](visualizations/ClustersOfTrains.png)
+
+
+The final cluster visualization is a key component of our evaluation. It displays a clear separation among the four clusters, each representing distinct groupings of the public transportation system's performance metrics. The clusters were named based on their defining characteristics, which were gleaned from their centroids and distribution across the features space. These names – such as "Swift Starters" for those with low delays and travel times, and "Widespread Waiters" for those with the highest delays – provide intuitive insights into each group's performance.
+
+While traditional metrics like accuracy, f1 score, and precision are not applicable, we evaluated cluster cohesion and separation to ensure meaningful groupings.
+
+Our visualization and analysis of the clusters allowed us to answer key questions posed in the introduction. We identified patterns and anomalies in public transportation performance, such as stations consistently experiencing delays and trains that are frequently late or have longer travel times. The insights drawn from our clusters align with our goal of optimizing the public transportation system by identifying potential areas for improvement.
+
+
 
 ## Storytelling and Conclusion
 
