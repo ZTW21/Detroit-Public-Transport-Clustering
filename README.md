@@ -27,8 +27,22 @@ Throughout the project, various visualizations were created to aid in understand
 
 In summary, the "Public Transport Traffic Data in France" dataset from Kaggle served as the backbone of our analysis, offering a detailed and comprehensive view of the public transportation system in France. The dataset's rich features and substantial size played a crucial role in enabling a deep and insightful exploration into the operational efficiencies of the train services.
 
+
 ![Distribution Of Average Travel Times](visualizations/DistributionOfAverageTravelTimes.png)
 The histogram above illustrates the distribution of average travel times for the public transport system under study. It appears that the travel times are concentrated in several peaks, suggesting that there may be common route lengths or that certain travel times are more frequent than others. There's a significant peak around the 100-200 minute mark, indicating a large number of routes fall within this travel time range. The long tail to the right suggests there are fewer routes with very long travel times, possibly representing longer-distance services. This visualization aids in understanding the distribution of travel times across the public transportation network, which is an essential aspect of optimizing the system's efficiency.
+
+
+![Boxplot of Number of Cancelled Trains](visualizations/BoxplotOfNumberOfCancelledTrains.png)
+The boxplot provides a visual summary of the distribution of cancelled trains. It indicates the median, spread, and outliers in the data, helping to identify stations with unusually high numbers of cancellations. This can guide resource allocation for improving reliability or addressing specific issues leading to cancellations.
+
+![Boxplot of Number of Late Trains at Departure](visualizations/BoxplotOfNumberOfLateTrainsAtDeparture.png)
+Similar to the boxplot for cancellations, this one focuses on the number of late trains at departure. It offers insights into the consistency of train departures across the network. Stations that show a high range or outliers might need specific attention to improve their on-time departure rates.
+
+![Average Delay by Departure Station](visualizations/AverageDelayByDepartureStation.png)
+This horizontal bar chart presents the average delay times by departure station. It highlights the variability in punctuality across stations, with some stations consistently experiencing delays while others often depart ahead of schedule. This visualization can be instrumental in pinpointing problem areas within the network where interventions could improve overall efficiency.
+
+![Correlation Matrix of Numeric Features](visualizations/CorrelationMatrixOfNumericFeatures.png)
+The correlation matrix uses color intensity to represent the strength and direction of the relationship between different numerical features of the data set. This heat map is a powerful tool for quickly understanding how different factors relate to each other, which can be vital for building predictive models or understanding the underlying causes of delays and cancellations.
 
 
 ## Methods
