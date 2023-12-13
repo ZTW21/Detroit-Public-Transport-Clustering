@@ -55,6 +55,15 @@ The correlation matrix uses color intensity to represent the strength and direct
 
 
 ## Methods
+Our project's analytical journey began with preprocessing, where we addressed missing values and normalized our dataset. Given the centrality of numeric columns in clustering, we selected features that captured the essence of public transportation performance: the number of late trains, average delays, and average travel times. We filled missing values with column means to maintain the dataset's integrity.
+
+The KMeans clustering algorithm was at the heart of our model, and we used the Elbow method to determine the optimal number of clusters. By plotting the Within-Cluster-Sum of Squares (WCSS) against the number of clusters, we looked for the 'elbow' point where the reduction in WCSS starts to diminish, indicating the most appropriate cluster count for our data. After several iterations, we finalized four as the optimal number, providing a balance between model complexity and meaningful segmentation.
+
+We experimented with different combinations of features and scaling methods to refine our clusters, seeking patterns that could inform actionable insights for improving public transportation systems. Each iteration offered a deeper understanding, whether through revealing overlaps between clusters or identifying outliers.
+
+Visualizations played a crucial role, turning complex multidimensional data into comprehendible plots. The final clustering visualization offered a clear distinction between groups, aiding in the interpretation and subsequent decision-making process.
+
+Throughout these stages, we iterated on our approach, reflecting on what worked and what didn't. We continually sought to improve our model, gaining new insights into public transportation dynamics with each step. The iterative process not only fine-tuned our model but also deepened our understanding of the data and its implications for public transportation management.
 
 ## Evaluation
 
