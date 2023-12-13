@@ -81,8 +81,9 @@ While traditional metrics like accuracy, f1 score, and precision are not applica
 Our visualization and analysis of the clusters allowed us to answer key questions posed in the introduction. We identified patterns and anomalies in public transportation performance, such as stations consistently experiencing delays and trains that are frequently late or have longer travel times. The insights drawn from our clusters align with our goal of optimizing the public transportation system by identifying potential areas for improvement.
 
 
-
 ## Storytelling and Conclusion
+By applying the elbow method and k-Means clustering to key performance indicators such as delays and travel times, we've segmented trains into distinct operational profiles. These clusters with significant variability, each tell a story of operational efficiency and areas for improvement. Our initial goal was to identify patterns that could enhance scheduling and reliability. The insights gained have laid the groundwork for targeted improvements. This project has underscored the power of data-driven decision-making in public transport management. Future steps would include refining the model with real-time data feeds and exploring predictive analytics to pre-emptively manage delays.
+
 
 ## Impact
 
