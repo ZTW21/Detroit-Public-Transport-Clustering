@@ -74,7 +74,7 @@ The evaluation of our KMeans clustering model's performance was primarily qualit
 ![Clusters of Trains](visualizations/ClustersOfTrains.png)
 
 
-The final cluster visualization is a key component of our evaluation. It displays a clear separation among the four clusters, each representing distinct groupings of the public transportation system's performance metrics. The clusters were named based on their defining characteristics, which were gleaned from their centroids and distribution across the features space. These names – such as "Swift Starters" for those with low delays and travel times, and "Extended Delay Commuters" for those with the highest delays – provide intuitive insights into each group's performance.
+The final cluster visualization is a key component of our evaluation. It displays a clear separation among the four clusters, each representing distinct groupings of the public transportation system's performance metrics. The clusters were named based on their defining characteristics, which were gleaned from their centroids and distribution across the features space. These names – such as "Swift Starters" for those with low delays and travel times, and "Extended Delay Commuters" for those with the highest delays – provide intuitive insights into each group's performance. If visualized in a 3D space, the "Timliness Travelers" cluster would likely exhibit clear spatial separation above the blue and red clusters, revealing the distinct group characteristics that are obscured in two dimensions.
 
 While traditional metrics like accuracy, f1 score, and precision are not applicable, we evaluated cluster cohesion and separation to ensure meaningful groupings.
 
